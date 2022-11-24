@@ -36,7 +36,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://iqqvcacmipwpbj:44ae41633912db7168cdc130f980ec897f2fae8996bb2cf0391db39c67aad9d6@ec2-34-205-46-149.compute-1.amazonaws.com:5432/d2ka364bcvkpuv")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://vqmyzfbbcbusgo:0cd5c8fb668baaccbfd94a44161221f45b87d40988171f11bd24b6d891355a17@ec2-54-156-47-113.compute-1.amazonaws.com:5432/darth4rja0d5c5")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001703144367"))
@@ -61,7 +61,7 @@ FORCE_MSG = os.environ.get(
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", Jangan Disini https://t.me/indonesia_viral)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Jangan Disini https://t.me/indonesia_viral")
 
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "True"))
